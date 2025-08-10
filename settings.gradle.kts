@@ -1,2 +1,2 @@
-rootProject.name = "MediatorServer"
+rootProject.name = "SignalingServer"
 
