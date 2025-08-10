@@ -1,5 +1,7 @@
+
 plugins {
     id("java")
+    application // 'application' 플러그인 추가
 }
 
 group = "com.elixcore.vallus"
@@ -16,4 +18,9 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+
+application {
+    mainClass.set("com.elixcore.vallus.SignalingServer") // 👈 [중요] 실제 패키지 경로와 클래스 이름으로 변경
 }
