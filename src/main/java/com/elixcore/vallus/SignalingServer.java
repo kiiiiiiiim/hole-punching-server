@@ -41,6 +41,7 @@ public class SignalingServer {
         } finally {
             listener.close();
             System.out.println("서버를 종료합니다.");
+            System.exit(-1);
         }
     }
 
