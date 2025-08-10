@@ -8,7 +8,7 @@ WORKDIR /app
 
 # 3. 소스 코드 복사
 # 로컬에 있는 SignalingServer.java 파일을 컨테이너의 /app 디렉토리로 복사합니다.
-COPY SignalingServer.java .
+COPY src/main/java/com/elixcore/vallus/SignalingServer.java .
 
 # 4. 자바 코드 컴파일
 # 복사된 .java 파일을 컴파일하여 .class 파일을 생성합니다.

@@ -1,4 +1,3 @@
-package com.elixcore.vallus;
 
 import java.io.IOException;
 import java.io.PrintWriter;
