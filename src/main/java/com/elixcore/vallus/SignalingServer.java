@@ -1,4 +1,3 @@
-package com.elixcore.vallus;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -7,7 +6,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class SignalingServer {
     private static final int            PORT  = 12345;
     private static       List<PeerInfo> peers = new ArrayList<>();
 
